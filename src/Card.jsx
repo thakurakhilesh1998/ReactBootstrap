@@ -6,14 +6,13 @@ const Card=(props)=>{
     return(
         <>
             <div className="col-md m-2">
-                <div className="card">
+                <div className="card shadow-lg rounded">
                     <img src={props.imgageUrl} className="card-img-top" height="250px"/>
                     <div className="card-body">
                         <h5 className="card-title">Card Title</h5>
                         <p className="card-text">Card text will be goes here.</p>
                          <a href="#" className="btn btn-primary">Go Somewhere</a>
                     </div>
-
                 </div>
               </div>
         </>

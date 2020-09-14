@@ -7,6 +7,8 @@ function App() {
   return (
     <>
    <div className="container-sm">
+
+    <u className="text-primary"><h2 className="text-center text-primary m-4">Welcome To My Website</h2></u>
     
       <div className="row my-3">
           <Card imgageUrl="https://picsum.photos/seed/picsum/200/300"/>
